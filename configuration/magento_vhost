@@ -3,8 +3,8 @@ upstream fastcgi_backend {
 }
 
 server {
-    listen 80;
-    listen [::]:80;
+    listen 80 default_server;
+    server_name _;
 
     server_name magento2.local;
 
