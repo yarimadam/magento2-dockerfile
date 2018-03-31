@@ -11,8 +11,8 @@ server {
     set $MAGE_ROOT /home/mage/public;
     root $MAGE_ROOT/pub;
 
-    access_log /home/mage/log/nginx.error.log;
-    error_log /home/mage/log/nginx.error.log;
+    access_log /home/mage/log/nginx.access.log;
+    error_log /home/mage/log/nginx.error.log error;
 
     index index.php;
     autoindex off;
