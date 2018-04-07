@@ -1,0 +1,3 @@
+magento ALL=(ALL) NOPASSWD: /etc/init.d/php7.0-fpm
+magento ALL=(ALL) NOPASSWD: /usr/sbin/nginx
+magento ALL=(ALL) NOPASSWD: /bin/cp
